@@ -6,6 +6,8 @@ import Form from './components/Form'
 import Destination from './components/Destination'
 import Checkout from './components/Checkout'
 import Gallery from './components/Gallery'
+import CTA from './components/CTA'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Destination />
       <Checkout />
       <Gallery />
+      <CTA />
+      <Footer />
     </>
   )
 }
