@@ -2,11 +2,11 @@ import React from 'react'
 
 const Packege = (props) => {
   return (
-    <div className='overflow-hidden md:flex rounded-2xl'>
+    <div className='overflow-hidden grid md:grid-cols-3 rounded-2xl'>
         <figure>
             <img className='md:h-full md:object-cover' src={props.banner} alt="" />
         </figure>
-        <div className='px-5 py-8 md:p-10'>
+        <div className='px-5 py-8 lg:px-5 md:p-10'>
             <h3 className=' text-[17px] font-[Montserrat] uppercase mb-2 font-bold text-[--gunmetal]'>{props.title}</h3>
             <p className='font-[Poppins] mb-5 text-[14px] text-left text-[--black-coral]'>{props.description}</p>
             <ul className='flex rounded-full justify-center gap-2 shadow-xl p-2 flex-wrap w-max'>
@@ -33,7 +33,7 @@ const Packege = (props) => {
                 </li>
             </ul>
         </div>
-        <div className='text-white font-[poppins] py-5 px-5 flex items-center flex-col bg-[--united-nations-blue]'>
+        <div className='text-white font-[poppins] py-5 px-5 flex items-center place-content-center flex-col bg-[--united-nations-blue]'>
             <div className='flex items-center gap-4 mb-3'>
                 <p className='text-[14px]'>{props.review}</p>
                 <div className='flex'>

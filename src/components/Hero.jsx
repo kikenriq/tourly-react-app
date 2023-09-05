@@ -3,9 +3,9 @@ import HeroImg from '../assets/images/hero-banner.jpg'
 
 const Hero = () => {
   return (
-    <div className='w-screen h-[700px] flex items-center sm:h-screen'>
-        <img src={HeroImg} className='absolute md:h-screen h-[700px] object-cover sm:w-screen brightness-50' alt="" />
-        <div className='relative font-[Montserrat] pt-32 flex flex-col gap-7 px-3'>
+    <div className='w-screen place-content-center items-center overflow-hidden relative h-[700px] lg:h-[850px] flex sm:h-screen'>
+        <img src={HeroImg} className=' md:h-screen h-full object-cover sm:w-screen brightness-50' alt="" />
+        <div className='absolute font-[Montserrat] lg:max-w-[740px] flex flex-col gap-7 px-3'>
             <h1 className='sm:text-6xl text-white uppercase font-extrabold text-4xl text-center'>Journey to Explore World</h1>
             <p className='text-white text-center text-[14px]'>
                 Ac mi duis mollis. Sapiente? Scelerisque quae, penatibus? Suscipit class corporis nostra rem quos

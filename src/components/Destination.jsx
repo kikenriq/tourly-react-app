@@ -9,14 +9,14 @@ const Destination = () => {
     <div className='px-4 pt-7'>
         <div className='py-10 md:text-center md:px-16 font-[Poppins]'>
             <p className='uppercase text-sm text-[--united-nations-blue]'>uncover place</p>
-            <h1 className='uppercase font-bold text-2xl text-[--oxford-blue]'>popular destination</h1>
-            <p className='text-[18px] text-left md:text-center pt-3 text-[--black-coral]'>
+            <h1 className='uppercase font-bold text-2xl lg:text-4xl text-[--oxford-blue]'>popular destination</h1>
+            <p className='text-[18px] max-w-[60ch] mx-auto  text-left md:text-center pt-3 text-[--black-coral]'>
             Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
             Sit ornare
             mollitia tenetur, aptent.
           </p>
         </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12'>
 
         <Card
             img={place1}
